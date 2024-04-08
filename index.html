@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/assets/css/styles.css">
+
+    <title>Site de naissance</title>
+
+</head>
+
+<body>
+      <header>
+        <nav class="navbar navbar-expand" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div class="container-fluid" class="col-6">
+          <p class="navbar-brand"><img src="./assets/photo/logo.jpg" class="rounded-circle" alt="Logo site de naissance" style="width: 50px ; height: 50px"><span>S</span>ite de <span>naissance</span></p>
+          
+          <form class="d-flex" role="search">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="apropos.html">A propos</a>
+                <a class="nav-link" href="historique.html">Historiques</a>
+                <a class="nav-link" href="statistique.html">Statistiques</a>
+              </div>
+            </div>
+          </form>
+        </div>
+        </nav>
+      </header>
+
+      <main>
+        <div class="bg-image text-center">
+          <p>
+            <h1 class="display-1">Bienvenue sur ce site !</h1>
+          </p>
+          <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-info" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-light" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-dark" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        
+
+        <div class="h6" row-gap-3>
+            <p>C'est un site de naissance pour tous !<br>
+            Ici que nous pouvons voir et partager des informations concernant au nouveau né. </p>
+            <p>
+                <button class="btn btn-seconde position-relative" type="button"><a class="button" href="formulaire.html">Ajouter un nouveau né</a>
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                    +
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </button>
+            </p>
+        </div>
+
+      </div>
+
+      <p>
+        <h3>Pourquoi considérons-nous les nouveaux nés ?</h3>
+      </p>
+        <div class="conteneur-1">
+
+          <div class="card text-bg-info mb-3" >
+            <div class="card-header"><h4>Fierté d'une famille</h4></div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card text-bg-info mb-3">
+            <div class="card-header"><h4>Avenir d'un pays</h4></div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card text-bg-info mb-3">
+            <div class="card-header"><h4>Espoir de l'humanité</h4></div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      <div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="assets/photo/aa.jpg" class="d-block w-100" alt="..." height="500px">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Fierté d'une famille</h3>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="assets/photo/bb.jpg" class="d-block w-100" alt="..." height="500px">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Avenir d'un pays</h3>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="assets/photo/cc.jpg" class="d-block w-100"  alt="..." height="500px">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Espoir de l'humanité</h3>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      
+
+
+        <section class="conteneur-2">
+
+          <div>
+            <p><h4><em>Menu du site</em></h4></p>
+          </div>
+      
+          <div id="carton2" class="container-sm">
+              <div class="elem"><p><img src="assets/photo/1.jpg" class="photo" alt="image1"></p>
+                <p class="elem"><a href="apropos.html"><h4><em>A propos</em></h4></a></p></div>
+              <div class="elem"><p><img src="assets/photo/2.jpg" class="photo" alt="image2"></p>
+              <p class="elem"><a href="historique.html"><h4><em>Historiques</em></h4></a></p></div>
+              <div class="elem"><p><img src="assets/photo/logo-stat.jpg" class="photo" alt="image3"></p>
+              <p class="elem"><a href="statistique.html"><h4><em>Statistiques</em></h4></a></p></div>
+          </div>
+
+        </section>
+
+      
+      </main>
+
+      <footer>
+        <p>
+          <em>@site de naissance</em>
+        </p>
+      </footer>
+
+
+
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

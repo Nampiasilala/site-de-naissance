@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/assets/css/styles.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+    <title>Site de naissance</title>
+
+</head>
+
+<body >
+      <header>
+        <nav class="navbar navbar-expand" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div class="container-fluid" class="col-6">
+          <p class="navbar-brand"><img src="assets/photo/logo.jpg" class="rounded-circle" alt="Logo site de naissance" style="width: 50px ; height: 50px"><span>S</span>ite de <span>naissance</span></p>
+          <form class="d-flex" role="search">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="apropos.html">A propos</a>
+                <a class="nav-link" href="historique.html">Historiques</a>
+                <a class="nav-link">Statistiques</a>
+              </div>
+            </div>
+          </form>
+        </div>
+        </nav>
+      </header>
+
+      <main class="conteneur-3">
+
+        <h2 style="color: white;">Statistiques</h2>
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Voir les statistiques</button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h4 class="offcanvas-title" id="offcanvasRightLabel">Statistiques</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+  
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" class="offcanvas-title" id="offcanvasRightLabel">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Depuis 2024
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">  
+                      <p>
+                        <h6>Sexe</h6>
+                        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-success" style="width: 25%">25%</div>
+                        </div>
+                      </p>
+  
+                      <p>
+                        <h6>Santé</h6>
+                        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+                        </div>
+                      </p>
+  
+                      <p>
+                        <h6>Mort</h6>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+                        </div>
+                      </p>
+  
+                      <p>
+                        <h6>Voie</h6>
+                        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Dernier mois
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>
+                        <h6>Sexe</h6>
+                        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-success" style="width: 25%">25%</div>
+                        </div>
+                      </p>
+  
+                      <p>
+                        <h6>Santé</h6>
+                        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+                        </div>
+                      </p>
+  
+                      <p>
+                        <h6>Mort</h6>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+                        </div>
+                      </p>
+  
+                      <p>
+                        <h6>Voie</h6>
+                        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+                        </div>
+                      </p>
+  
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Dernière semaine
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>
+                        <h6>Sexe</h6>
+                        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-success" style="width: 25%">25%</div>
+                        </div>
+                      </p>
+  
+                      <p>
+                        <h6>Santé</h6>
+                        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+                        </div>
+                      </p>
+  
+                      <p>
+                        <h6>Mort</h6>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+                        </div>
+                      </p>
+  
+                      <p>
+                        <h6>Voie</h6>
+                        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+                        </div>
+                      </p>
+  
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+      
+      </main>
+
+      <div>
+        <p><img src="assets/photo/stat.jpg" alt="stat" style="width: 100%; height: 350px;"></p>
+      </div>
+
+      <footer>
+        <p>
+          <a href="index.html" title="Retour vers la page principale"><em>@site de naissance</em></a>
+        </p>
+      </footer>
+
+
+
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
