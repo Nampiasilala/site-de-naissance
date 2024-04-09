@@ -1,173 +1,9 @@
-
-<!-- <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../bootstrap/assets/css/styles.css">
-    <title>Site de naissance</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-
-<body>
-    <header>
-        <p class="titre"><h1>Ajouter des informations</h1></p>
-    </header>
-    
-    <main>
-    <div>
-        <form method="post" action="traitement.php">
-            <fieldset>
-                <legend><h2>Nouveau né</h2></legend>
-                <p>
-                    <label for="nom">Nom :</label>
-                    <input type="text" name="nom"
-                    id="nom" size="40" maxlength="40"/>
-                </p>
-                
-                <p>
-                    <label for="prenom">Prénom(s) :</label>
-                    <input type="text" name="prenom"
-                    id="prenom" size="40" maxlength="40"/>
-                </p>
-                
-                <p>
-                    <label for="heure">Heure de naissance :</label>
-                    <input type="time" name="heure"
-                    id="heure" size="40" maxlength="40"/>
-                </p>
-
-                <p>
-                    <label for="date">Date de naissance :</label>
-                    <input type="date" type="date" name="date"
-                    id="date" size="40" maxlength="40"/>
-                </p>
-                
-                <p>
-                    <label for="lieu">Lieu de naissance :</label> 
-                    <input type="text" name="lieu"
-                    id="lieu" size="40" maxlength="40"/>
-                </p>
-
-                <p>
-                    <label for="region">Région et province de naissance :</label>
-                    <input type="text" name="region"
-                    id="region" size="40" maxlength="40"/>
-                </p>
-
-                <p>
-                    <label for="poids">Poids (kg) :</label> 
-                    <input type="number" name="poids"
-                    id="poids"/>
-                </p>
-
-
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend><h2>Famille</h2></legend>
-
-                <p>
-                    <label for="pere">Nom du père :</label> 
-                    <input type="text" name="pere" id="pere" size="40"/>
-                </p>
-
-                <p>
-                    <label for="professionpere">Profession du père :</label> 
-                    <input type="text" name="professionpere" id="professionpere" size="40"/>
-                </p>
-
-                <p>
-                    <label for="originairepere">Originaire et nationnalité du père :</label> 
-                    <input type="text" name="originairepere" id="originairepere" size="40"/>
-                </p>
-
-                <p>
-                    <label for="mere">Nom de la mère :</label>
-                    <input type="text" name="mere" id="mere" size="40"/>
-                </p>
-
-                <p>
-                    <label for="professionmere">Profession de la mère :</label> 
-                    <input type="text" name="professionmere" id="professionmere" size="40"/>
-                </p>
-
-                <p>
-                    <label for="originairemere">Originaire et nationnalité de la mère :</label> 
-                    <input type="text" name="originairemere" id="originairemere" size="40"/>
-                </p>
-
-                <p>
-                    <label for="nombrefs">Nombre de frère et soeur :</label> 
-                    <input type="number" name="nombrefs" id="nombrefs" size="40"/>
-                </p>
-
-                <p>
-                    <label for="adresse">Adresse des parents :</label> 
-                    <input type="text" name="adresse" id="adresse" size="40"/>
-                </p>
-
-            <p>
-                <label for="coms">Quelque mots </label>: <br>
-                
-                <textarea name="coms" id="infosup" cols="40" rows="5"
-                placeholder="Information supplémentaire">
-            
-                </textarea>
-            </p>
-            
-            </fieldset>
-            <p><input type="submit" value="Envoyer" /></p>
-        </form>
-
-
-        
-    </div>
-    </main>
-
-    <footer>
-        
-        <p>
-            <a href="index.html" title="retour vers la page principal"><em>@Site de naissance</em></a>
-        </p>
-
-    </footer>
-
-    <script src="./jquery/jquery.min.js"></script>
-    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../bootstrap/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Site de naissance</title>
 </head>
 
@@ -204,59 +40,44 @@
                 <input type="text" name="lieu" class="form-control" id="ee" placeholder="quatier, ville et région">
               </div>
 
-              <div class="col-12">
-                <label for="e" class="form-label">Sexe</label>
-                <input type="text" name="sexe" class="form-control" id="e" placeholder="(Masculin, Feminin)">
-              </div>
-
-              <!-- <div class="col-md-6">
+              <div class="col-md-6">
                 <fieldset class="row mb-3">
                   <legend class="col-form-label col-sm-2 pt-0">Sexe</legend>
                   <div class="col-sm-10">
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="sexe" id="ff" value="option1">
+                      <input class="form-check-input" type="radio" name="sexe" id="ff" value="Masculin">
                       <label class="form-check-label" for="ff">
                         Masculin
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="sexe" id="gg" value="option2">
+                      <input class="form-check-input" type="radio" name="sexe" id="gg" value="Feminin">
                       <label class="form-check-label" for="gg">
                         Feminin
                       </label>
                     </div>
                   </div>
                 </fieldset>
-              </div> -->
+              </div>
       
               <div class="col-12">
                 <label for="hh" class="form-label">Poids</label>
                 <input type="number" name="poids" class="form-control" id="hh" placeholder="(en kg)">
               </div>
 
-              <!-- <div class="col-md-4">
+              <div class="col-md-4">
                 <label for="ii" class="form-label">Etat de santé</label>
                 <select id="ii" class="form-select" name="sante">
                   <option>Bonne</option>
                   <option>Mauvaise</option>
                   <option>Moyenne</option>
                 </select>
-              </div> -->
-
-              <div class="col-12">
-                <label for="h" class="form-label">Santé</label>
-                <input type="text" name="sante" class="form-control" id="h" placeholder="(Bonne, Mauvaise, sns)">
               </div>
-              
+
               <div class="mb-3">
                 <label for="j" class="form-label">Photo</label>
-                <input type="text" class="form-control"  name="photo" id="j">
+                <input type="file" class="form-control"  name="photo" id="j">
               </div>
-
-              <!-- <div class="mb-3">
-                <label for="jj" class="form-label">Photo</label>
-                <input class="form-control" type="file" name="photo" id="jj">
-              </div> -->
 
               <div class="col-12">
                 <label for="kk" class="form-label">Nombre de frère et soeur</label>
