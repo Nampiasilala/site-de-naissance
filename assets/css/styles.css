@@ -1,8 +1,6 @@
   .bg-image {
-    background-image: url(../photo/bebe.jpg);
+    background-image: url(../photo/fond.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 
   .bg-image-2 {
@@ -46,7 +44,7 @@
 
   .conteneur-1 {
     display: flex;
-    background-color: antiquewhite;
+    box-shadow: 10px 10px 30px #000000;
   }
 
 .conteneur-2 {
@@ -57,6 +55,7 @@
   color: white;
   padding-block: 50px;
   text-align: center;
+  box-shadow: inset 0px 20px 40px 0px #000000;
 }
 
 #carton2, #carton1 {
@@ -112,4 +111,9 @@ span {
 
 a {
   text-decoration: none;
+}
+
+.spinner-grow {
+  width: 1rem;
+  height: 1rem;
 }
